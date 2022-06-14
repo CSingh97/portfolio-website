@@ -1,0 +1,58 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark-grey: #171917;
+  }
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.done {
+    list-style: url(media/check_mark.png);
+}
+
+.todo{
+    list-style: url(media/check_box.png);
+}
+
+#msg {
+    font-family: monospace;
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+  
+.dark-theme {
+    --bg: var(--dark-grey);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 20%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
