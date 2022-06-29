@@ -8,6 +8,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
       <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
    </head>
 
    <body>
@@ -20,21 +21,15 @@
 
             <div class="about">
                <div class="headshot">
-                  <img src="media/headshot.png" alt="" />
+                  <img src="media/headshot.jpg" alt="" style="border-radius: 50%" />
                </div>
+               <button class="resume-dwn">Check out my resume! <i class="fa fa-download fa-lg"></i></button>
                <div class="description">
                   <h1>About Me</h1>
                   <p>
-                     <br />Hey all, my name is Calvin. I'm currently a
-                     fifth-year student at
-                     <a href="https://www.qc.cuny.edu/">Queens College</a>
-                     working towards my degree in
-                     <a href="https://www.cs.qc.cuny.edu/">Computer Science</a>.
-                     My aim is to use my degree to create projects and make a
-                     career that will challenge my problem solving and design
-                     skills. <br /><br />
-                     When I'm not doing that, I'm either playing video games,
-                     taking walks, or noodling on my guitar.
+                     <br>Hey all, my name is Calvin. I'm currently a fifth-year student at <a href="https://www.qc.cuny.edu/">Queens College</a> on track to recieve my bachelor's degree in <a href="https://www.cs.qc.cuny.edu/">Computer Science</a>. I aspire to become a full-stack developer because I enjoy solving problems as well using my creativity to solve those problems. <br><br>
+                     Growing up, I enjoyed playing video games, and that eventually led me into an interest in technology, and when high school came around I joined a summer school program that included learning about how to code a simple phone app; nothing fancy, but that was my first exposure to what a program could do, and since then it always had my interest. When I applied to college I decided that programming would be a field that I wanted to learn more about, and during my years I got a taste of how challenging some problems could be and it intrigued me because of the ways those probelms can be solved through creativity. Now, I'm trying to find a career doing what I enjoy: creating programs that can challenge me in terms of problem solving and creativity. <br><br>
+                     When I'm not doing that, I enjoy playing video games (ask me about my Final Fantasy 14 character!), playing guitar, and tinkering with my computer/linux installation. 
                   </p>
                </div>
             </div>
@@ -48,7 +43,23 @@
 
          <section class="contact">
             <div class="header">
-               <h1>Contact page here</h1>
+               <h1>Get in contact!<br>(Or don't, I'm not your boss)</h1>
+            </div>
+            
+            <div class="github">
+              <button class="github-btn" onclick="parent.open('https://github.com/CSingh97')"><i class="fa-brands fa-github-alt fa-4x"></i></button>
+            </div>
+
+            <div class="twitter">
+              <button class="twitter-btn" onclick="parent.open('https://twitter.com/azur0315')"><i class="fa-brands fa-twitter fa-4x"></i></button>
+            </div>
+
+            <div class="linkedin">
+              <button class="linkedin-btn" onclick="parent.open('https://www.linkedin.com/in/calvin-singh-808b96174/')"><i class="fa-brands fa-linkedin-in fa-4x"></i></button>
+            </div>
+
+            <div class="email">
+              <button class="email-btn" onclick= "window.open(document.location = 'mailto:calvinsingh1997+portfolio@gmail.com')">Send an email! <i class="fa-regular fa-paper-plane fa-lg"></i></button>
             </div>
          </section>
       </div>

@@ -52,6 +52,26 @@ section {
    color: black;
 }
 
+.home > .about > .resume-dwn {
+  background-color: white;
+  border: solid;
+  border-radius: 12px;
+  color: black;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+  left: -92%;
+  top: 40%;
+}
+
+/* Darker background on mouse-over */
+.home > .about > .resume-dwn:hover {
+  background-color: #294172;
+  border-color: black;
+  color: white;
+}
+
 .home > .about > .headshot {
    position: relative;
    left: -100%;
@@ -59,10 +79,10 @@ section {
 }
 
 .home > .about > .description {
-   font-size: 22px;
+   font-size: 21px;
    text-align: center;
    position: absolute;
-   top: 47%;
+   top: 35%;
    margin-left: 10%;
    margin-right: 10%;
 }
@@ -94,4 +114,81 @@ section {
    text-align: center;
    position: absolute;
    top: 5%;
+}
+
+.contact > .github > .github-btn {
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 40px 50px;
+  cursor: pointer;
+  font-size: 50px;
+  position: absolute;
+  left: 20%;
+  top: 35%;
+}
+
+/* Darker background on mouse-over */
+.contact > .github > .github-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact > .twitter > .twitter-btn {
+  background-color: #1DA1F2;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 40px 50px;
+  cursor: pointer;
+  font-size: 50px;
+  position: absolute;
+  left: 42.5%;
+  top: 35%;
+}
+
+/* Darker background on mouse-over */
+.contact > .twitter > .twitter-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact > .linkedin > .linkedin-btn {
+  background-color: #0077b5;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 40px 55px;
+  cursor: pointer;
+  font-size: 50px;
+  position: absolute;
+  left: 65%;
+  top: 35%;
+}
+
+/* Darker background on mouse-over */
+.contact > .linkedin > .linkedin-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact > .email > .email-btn {
+  background-color: white;
+  border: solid;
+  border-radius: 12px;
+  color: black;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-size: 50px;
+  position: absolute;
+  left: 37%;
+  bottom: 10%;
+}
+
+/* Darker background on mouse-over */
+.contact > .email > .email-btn:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
 }
