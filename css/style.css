@@ -121,35 +121,16 @@ section {
   border: none;
   border-radius: 50%;
   color: white;
-  padding: 40px 50px;
+  padding: 60px 75px;
   cursor: pointer;
-  font-size: 50px;
+  font-size: 75px;
   position: absolute;
-  left: 20%;
-  top: 35%;
+  left: 25%;
+  top: 25%;
 }
 
 /* Darker background on mouse-over */
 .contact > .github > .github-btn:hover {
-  background-color: white;
-  color: black;
-}
-
-.contact > .twitter > .twitter-btn {
-  background-color: #1DA1F2;
-  border: none;
-  border-radius: 50%;
-  color: white;
-  padding: 40px 50px;
-  cursor: pointer;
-  font-size: 50px;
-  position: absolute;
-  left: 42.5%;
-  top: 35%;
-}
-
-/* Darker background on mouse-over */
-.contact > .twitter > .twitter-btn:hover {
   background-color: white;
   color: black;
 }
@@ -159,12 +140,12 @@ section {
   border: none;
   border-radius: 50%;
   color: white;
-  padding: 40px 55px;
+  padding: 60px 75px;
   cursor: pointer;
-  font-size: 50px;
+  font-size: 75px;
   position: absolute;
-  left: 65%;
-  top: 35%;
+  right: 25%;
+  top: 25%;
 }
 
 /* Darker background on mouse-over */
@@ -182,7 +163,7 @@ section {
   cursor: pointer;
   font-size: 50px;
   position: absolute;
-  left: 37%;
+  left: 36%;
   bottom: 10%;
 }
 
