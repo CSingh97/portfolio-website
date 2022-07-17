@@ -93,8 +93,8 @@ section {
 }
 
 .works {
-   background: black;
-   color: white;
+   background: white;
+   color: black;
 }
 
 .works > .header {
@@ -102,6 +102,46 @@ section {
    text-align: center;
    position: absolute;
    top: 5%;
+}
+
+.works > .portfolio-site {
+  color: black;
+  position: relative;
+  top: -25%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 90%;
+  height: 140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+
+.works > .portfolio-site > h1 {
+  font-size: 30px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.works > .portfolio-site > h1 > .github-code {
+  border: none;
+  background:transparent;
+}
+
+.works > .portfolio-site > h1 > .github-code:hover {
+  cursor: pointer;
+}
+
+.works > .portfolio-site > p {
+  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+.works > .portfolio-site > h2 {
+  font-size: 12px;
+  font-style: italic;
+  text-align: left;
 }
 
 .contact {
